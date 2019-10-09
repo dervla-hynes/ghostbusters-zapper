@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    position: relative;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    color: green;
+    padding: 20px;
+}
+
+p.character {
+    padding: 10px;
+    color: white;
+    align-content: center;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+}
+
+div#worker-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+div#drone-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 1.2em;
+    color: white;
+    background-color: green;
+    border: 2px solid white;
+}
+
+.dead {
+    opacity: 0.5;
+}
+
+.dead img {
+    width: 80px;
+}
+
+#game-screen {
+    position: relative;
+    /* display: none; */
+}
+
+#game-over {
+    color: green;
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 350px;
+}
+
+#game-over img {
+    height: 300px;
+}
